@@ -1,0 +1,12 @@
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll

@@ -1,0 +1,17 @@
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\DAO.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\DAO.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Release\net6.0\ref\DAL.dll
