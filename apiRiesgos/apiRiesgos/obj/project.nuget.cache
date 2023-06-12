@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/IsxQpLuMu6zy2EEf2ZKgZHOEwnKPOhYgy4kYodcdqRPsdQuJIYvT8Q7PhW6FWa09w7QdRmNSiPLDle7+K74A==",
+  "dgSpecHash": "Ar+trJGbEtblox4u0J9v8Cgcw1SLe4fYGfgf5vhwrkxlVOnlVBCiF+IM+bPN7C5MWS8Z91PynrX2Tvdv7eGhZw==",
   "success": true,
-  "projectFilePath": "C:\\C#\\apiRiesgos\\apiRiesgos\\apiRiesgos.csproj",
+  "projectFilePath": "C:\\C#\\API_Riesgos\\apiRiesgos\\apiRiesgos\\apiRiesgos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.apidescription.client\\3.0.0\\microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512",

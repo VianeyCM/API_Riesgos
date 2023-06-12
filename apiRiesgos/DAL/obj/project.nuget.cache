@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vGLo5E4oGg2LAj8ZK7mdSemR4ibKbitAmfLHQWIBLIIiDjnkqc0nLHbvaKMgJ92BJZoiLQ77qB8Jh3aXdDYYPg==",
+  "dgSpecHash": "BT+lSpa4FWAJwt1d8l2/RL1nM5Ysr0IbNXW8I2etgo1jrVvsuCU2kvCVhKIOQAvnIrP4AQNeLsclTp1YTVIOCg==",
   "success": true,
-  "projectFilePath": "C:\\C#\\apiRiesgos\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\C#\\API_Riesgos\\apiRiesgos\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

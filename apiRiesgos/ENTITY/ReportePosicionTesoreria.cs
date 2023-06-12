@@ -9,6 +9,7 @@ namespace ENTITY
     public class ReportePosicionTesoreria
     {
         public string Emision { get; set; }
+        
         public string Posicion { get; set; }
         public string Operacion { get; set; }
         public int FechaCorte { get; set; }
@@ -23,7 +24,8 @@ namespace ENTITY
         public int FechaVtoCup { get; set; }
         public int ClaveInstrumento { get; set; }
         public string ClaveEmisor { get; set; }
-        public decimal Duracion { get; set; }
+        //public decimal Duracion { get; set; }
+        public int Duracion { get; set; }
         public string TipoTasa { get; set; }
         public string Moneda { get; set; }
         public string Area { get; set; }

@@ -1,4 +1,9 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Xml.Serialization;
+using System.Transactions;
+using System.ComponentModel;
+using System.Xml.XPath;
+using System.Net.Http.Headers;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
@@ -558,7 +563,7 @@ namespace DAO
                         cmd.Parameters.Add("SERIE", item.Serie);
                         cmd.Parameters.Add("F_VENCIMIENTO", item.FechaVto);
                         cmd.Parameters.Add("P_CUPON", item.TCupon);
-                        cmd.Parameters.Add("D_VTO", item.D_vto);
+                        cmd.Parameters.Add("D_VTO", item.DxV);
                         cmd.Parameters.Add("T_CUPON", item.TasaCupon);
                         cmd.Parameters.Add("T_PREMIO", item.Premio);
                         cmd.Parameters.Add("N_TITULOS", item.Titulos);
@@ -643,14 +648,14 @@ namespace DAO
                         cmd.Parameters.Add("TV", item.TV);
                         cmd.Parameters.Add("SERIE", item.Serie);
                         cmd.Parameters.Add("EMISOR", item.Emisor);
-                        cmd.Parameters.Add("OP", item.Op);
+                        cmd.Parameters.Add("OP", item.TipoInventario);//se ajusta 
                         cmd.Parameters.Add("FECHA_VAL", item.FechaValor);
-                        cmd.Parameters.Add("FECHA_F_OPER", item.FechaValor);
+                        cmd.Parameters.Add("FECHA_F_OPER", item.FechaVto);
                         cmd.Parameters.Add("NUM_OP", item.NumOper);
                         cmd.Parameters.Add("CPRA_VTA", item.CompraVenta);
                         cmd.Parameters.Add("TITULOS", item.Titulos);
                         cmd.Parameters.Add("PRECIO_LIB", item.PrecioLibros);
-                        cmd.Parameters.Add("VALOR_LIB", item.ValorLib);
+                        cmd.Parameters.Add("VALOR_LIB", item.ImporteLibros); //se ajusta 
                         cmd.Parameters.Add("DIAS_TRANS", item.DiasTrans);
                         cmd.Parameters.Add("DXV", item.DxV);
                         cmd.Parameters.Add("TASA_VMTO", item.TasaVto);
@@ -658,17 +663,17 @@ namespace DAO
                         cmd.Parameters.Add("TASA_CVA_P", item.TasaCurva);
                         cmd.Parameters.Add("PREMIO_DEV", item.PremioDev);
                         cmd.Parameters.Add("TASA_MERCA", item.TasaMercado);
-                        cmd.Parameters.Add("VPPV", item.VPPV);
-                        cmd.Parameters.Add("PRECIO_MERC", item.PrecioMercado);
-                        cmd.Parameters.Add("VALOR_MERC", item.ValorMercado);
+                        cmd.Parameters.Add("VPPV", item.ImporteAcum); //se ajusta 
+                        cmd.Parameters.Add("PRECIO_MERC", item.PrecioMercado);//se ajusta 
+                        cmd.Parameters.Add("VALOR_MERC", item.ImporteMercado);//se ajusta 
                         cmd.Parameters.Add("PLAZO_PAPE", item.PlazoPapel);
                         cmd.Parameters.Add("TVMTOPAPEL", item.TvmtoPapel);
                         cmd.Parameters.Add("INTERES_PA", item.Interes);
                         cmd.Parameters.Add("AREA", item.Area);
                         cmd.Parameters.Add("TAS_DIARIA", item.TasaDiaria);
-                        cmd.Parameters.Add("CLAVE_EMISOR", '0'); //
-                        cmd.Parameters.Add("T_INST", item.TInst);
-                        cmd.Parameters.Add("SECTOR", '0');//
+                        cmd.Parameters.Add("CLAVE_EMISOR",'0'); // anteriormente se consideraba 0
+                        cmd.Parameters.Add("T_INST", item.ClaveInstrumento);
+                        cmd.Parameters.Add("SECTOR",item.ClaveInstrumento);//anteriormente se consideraba 0
                         cmd.Parameters.Add("DXV_FCORTE", item.DxVCorte);
                         cmd.Parameters.Add("T_OPER", item.TipoOper);
                         cmd.Parameters.Add("CVE_CONT", item.ClaveContraparte);
@@ -741,7 +746,7 @@ namespace DAO
             return respuesta;
         }
         public Respuesta guardarReportePosicionTesoreria(List<ReportePosicionTesoreria> reporte, OracleConnection conexionRiesgos)
-        {
+        { 
             Respuesta respuesta = new Respuesta();
             respuesta.exito = false;
             bool borro = false;
@@ -793,7 +798,7 @@ namespace DAO
                         cmd.Parameters.Add("OPERACION", item.Operacion);
                         cmd.Parameters.Add("FECHA_CORTE", fcort);
                         cmd.Parameters.Add("TITULOS", item.Titulos);
-                        cmd.Parameters.Add("PRECIO_REF", "0");
+                        cmd.Parameters.Add("PRECIO_REF",item.PrecioMercado); // anteriormente se condideraba 0
                         cmd.Parameters.Add("FEC_VENC", fvenc);
                         cmd.Parameters.Add("TASA_MDO", item.TasaMercado);
                         cmd.Parameters.Add("PRECIO_LIBROS", item.PrecioLibros);
@@ -802,7 +807,7 @@ namespace DAO
                         cmd.Parameters.Add("FEC_EMISION", femis);
                         cmd.Parameters.Add("FEC_CTE_CPN", fcte);
                         cmd.Parameters.Add("CVE_INST", item.ClaveInstrumento);
-                        cmd.Parameters.Add("CVE_EMISOR", "0");
+                        cmd.Parameters.Add("CVE_EMISOR",item.ClaveEmisor);
                         cmd.Parameters.Add("DURACION", item.Duracion);
                         cmd.Parameters.Add("TIPO_TASA", item.TipoTasa);
                         cmd.Parameters.Add("MONEDA", item.Moneda);
@@ -962,7 +967,8 @@ namespace DAO
 
                         cmd.Parameters.Clear();
                         cmd.Parameters.Add("IDENTIFICADOR", item.Identificador);
-                        cmd.Parameters.Add("NOMINSTRUMENTO", '0');//item.NomInstrumento
+                        cmd.Parameters.Add("NOMINSTRUMENTO",item.NomInstrumento);//0 
+                        Console.WriteLine(item.NomInstrumento);
                         cmd.Parameters.Add("EMISOR", item.Emisor);
                         cmd.Parameters.Add("NOMEMI", item.Emision);
                         cmd.Parameters.Add("CLAVEOPER", item.ClaveOper);
@@ -979,7 +985,7 @@ namespace DAO
                         cmd.Parameters.Add("PERIODO", item.Periodo);
                         cmd.Parameters.Add("TASAREF", item.TasaRef);
                         cmd.Parameters.Add("EMISIONGAR", item.EmisionGar);
-                        cmd.Parameters.Add("NUMFUNCIONARIO", '0');//item.NumFuncionario
+                        cmd.Parameters.Add("NUMFUNCIONARIO", item.NumFuncionario);//0
                         cmd.Parameters.Add("NUMCONTRAPARTE", item.NumContraparte);
                         cmd.Parameters.Add("NUMOPER", item.NumOper);
                         cmd.Parameters.Add("FECHAEXP", item.FechaExp);

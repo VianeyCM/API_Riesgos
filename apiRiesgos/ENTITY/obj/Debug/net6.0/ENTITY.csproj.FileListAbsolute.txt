@@ -22,3 +22,15 @@ C:\C#\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.dll
 C:\C#\apiRiesgos\ENTITY\obj\Debug\net6.0\refint\ENTITY.dll
 C:\C#\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.pdb
 C:\C#\apiRiesgos\ENTITY\obj\Debug\net6.0\ref\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\bin\Debug\net6.0\ENTITY.deps.json
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\bin\Debug\net6.0\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\bin\Debug\net6.0\ENTITY.pdb
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.csproj.AssemblyReference.cache
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.AssemblyInfo.cs
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\refint\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ENTITY.pdb
+C:\C#\API_Riesgos\apiRiesgos\ENTITY\obj\Debug\net6.0\ref\ENTITY.dll

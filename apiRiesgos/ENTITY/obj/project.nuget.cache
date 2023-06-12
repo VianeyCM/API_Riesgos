@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gry0rQ8yGSvPuq1D2yjHVxriTqei/l/Sm6BePitidflV7s6hh9KlomSlGS42FSDcwS5GnEkvkxt+IBKtsj8zBw==",
+  "dgSpecHash": "PgUf+/VfExuvVlwmOg/5M0/BPraq1cqI+ncdhmmS2FukpyEX1AaekCTtmolLlh1yBDgwpF0Ya3waLkBU4eteow==",
   "success": true,
-  "projectFilePath": "C:\\C#\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+  "projectFilePath": "C:\\C#\\API_Riesgos\\apiRiesgos\\ENTITY\\ENTITY.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

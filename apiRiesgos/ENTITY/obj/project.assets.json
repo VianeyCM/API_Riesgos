@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+      "projectUniqueName": "C:\\C#\\API_Riesgos\\apiRiesgos\\ENTITY\\ENTITY.csproj",
       "projectName": "ENTITY",
-      "projectPath": "C:\\C#\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+      "projectPath": "C:\\C#\\API_Riesgos\\apiRiesgos\\ENTITY\\ENTITY.csproj",
       "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\apiRiesgos\\ENTITY\\obj\\",
+      "outputPath": "C:\\C#\\API_Riesgos\\apiRiesgos\\ENTITY\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
